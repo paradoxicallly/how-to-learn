@@ -103,10 +103,6 @@ a {
   min-width: 784px;
 }
 
-.two-columns__paragraph {
-
-}
-
 .two-columns__paragraph_text {
   line-height: 34px;
   font-size: 24px;
@@ -174,7 +170,7 @@ a {
   background-size: 867px 637px;
   background-repeat: no-repeat;
   height: 890px;
-  padding-top: 100px;;
+  padding-top: 100px;
 }
 
 .feynman__title {
@@ -271,7 +267,7 @@ a {
 .footer {
   background-color: #1f1f1f;
   min-height: 350px;
-  padding: 60px 0 40px;;
+  padding: 60px 0 40px;
 }
 
 .footer__column {
