@@ -1,14 +1,5 @@
-h1, h2, h3, h4, p {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: #2f80ed;
-}
-
-a:hover {
-  color: #122FAA;
+div {
+  border: 1px solid red;
 }
 
 .page {
@@ -50,6 +41,7 @@ a:hover {
   z-index: 3;
   padding-left: 64px;
   color: #000;
+  margin: 0;
 }
 
 .header__subtitle {
@@ -61,11 +53,18 @@ a:hover {
   line-height: 25px;
   font-size: 18px;
   color: #000;
+  margin: 0;
 }
 
 .header__link {
   line-height: 25px;
   font-size: 18px;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__link:hover {
+  color: #122FAA;
 }
 
 .header__main-illustration {
@@ -104,6 +103,7 @@ a:hover {
   font-weight: normal;
   color: #2f80ed;
   width: 175px;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -125,6 +125,7 @@ a:hover {
 .two-columns__span-accent {
   font-weight: bold;
   color: #000;
+  margin: 0;
 }
 
 
@@ -168,10 +169,11 @@ a:hover {
   line-height: 1.15;
   font-size: 24px;
   color: #000;
+  margin: 0;
 }
 
 .table__text {
-  margin-top: 20px;
+  margin: 20px 0 0;
   line-height: 1.2;
   font-size: 18px;
   color: #000;
@@ -199,7 +201,7 @@ a:hover {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  margin-top: 70px;
+  margin: 70px 0 0;
   color: #000;
 }
 
@@ -209,6 +211,12 @@ a:hover {
   right: 48px;
   line-height: 51px;
   font-size: 36px;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.feynman__link:hover {
+  color: #122FAA;
 }
 
 .kaufman {
@@ -307,13 +315,18 @@ a:hover {
   line-height: 30px;
   font-size: 18px;
   color: #fff;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
 }
 
 .footer__column-link {
   line-height: 30px;
   font-size: 18px;
   color: #fff;
+  text-decoration: none;
+}
+
+.footer__column-link:hover {
+  color: #122FAA;
 }
 
 .footer__column-link:nth-of-type(3n) {
