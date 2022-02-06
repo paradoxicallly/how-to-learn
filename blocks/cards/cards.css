@@ -1,0 +1,9 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 100px;
+  max-width: 920px;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+}

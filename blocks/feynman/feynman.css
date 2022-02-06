@@ -1,0 +1,7 @@
+.feynman {
+  position: relative;
+  background: no-repeat left bottom url('../../images/feynman.png') #F2F2F2;
+  background-size: 867px 637px;
+  height: 890px;
+  padding-top: 100px;
+}

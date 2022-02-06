@@ -1,0 +1,7 @@
+.table_theme_dark {
+  width: 80%;
+}
+
+.table_theme_dark:last-of-type {
+  margin-bottom: 90px;
+}
