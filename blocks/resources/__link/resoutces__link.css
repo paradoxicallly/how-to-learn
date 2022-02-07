@@ -1,0 +1,4 @@
+.resources__link:hover {
+  box-shadow: 3px 3px 5px #2f80ed;
+  transition: box-shadow ease-in-out 2s 0s;
+}
